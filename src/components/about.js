@@ -13,11 +13,11 @@ function About() {
             <h4>I am an undergrad at Northeastern University studying Computer Science and Media Arts, 
               a computer graphics major under the Computer and Information Sciences Department.</h4>
               <h4>Topics that excite me are animation tools, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
-                enjoy drawing, playing guitar, traveling, skateboarding, and spending time outdoors.
+                enjoy drawing, playing guitar, being outdoors, and spending time with friends.
               </h4>
               <h4> My experience: 
                 <ul>
-                <li><b>SIGGRAPH</b> 2021 student volunteer!</li>
+                <li><b>SIGGRAPH</b> 2021 student volunteer</li>
                 <li><b>Electronic Arts</b> summer 2021 (Tech Art Internship)</li>
                 <li><b>ILM, Lucasfilm</b>  spring 2021 (Core Pipeline Software Co-op)</li>
                 <li><b>Human Movement Lab</b> all of 2020 (Motion Capture engineering, VR, Computer Graphics, Python, Blender)</li>

@@ -134,25 +134,22 @@ class Artwork extends Component {
         id: 19,
         name: "Gravediggers",
         image: "https://user-images.githubusercontent.com/44556715/108859790-94c1e000-75bb-11eb-9076-ab1c905272d2.png"
-      },{
-      id: 2,
-      name: "Forest",
-      image: "https://user-images.githubusercontent.com/44556715/90457269-13980680-e0c9-11ea-8a00-366dae248570.jpg"
-    }, {
+      },
+      {
+        id: 1,
+        name: "Ballet",
+        image: "https://user-images.githubusercontent.com/44556715/90457265-1266d980-e0c9-11ea-896a-1ad1f15c09d3.png"
+      }, {
       id: 3,
       name: "Bottles",
       image: "https://user-images.githubusercontent.com/44556715/90457270-13980680-e0c9-11ea-8eb7-6a731c506df7.jpg"
     },
     {
-      id: 1,
-      name: "Ballet",
-      image: "https://user-images.githubusercontent.com/44556715/90457265-1266d980-e0c9-11ea-896a-1ad1f15c09d3.png"
+      id: 2,
+      name: "Forest",
+      image: "https://user-images.githubusercontent.com/44556715/90457269-13980680-e0c9-11ea-8a00-366dae248570.jpg"
     },
-    {
-      id: 4,
-      name: "Dog",
-      image: "https://user-images.githubusercontent.com/44556715/90457271-13980680-e0c9-11ea-9b35-f6cb875ac530.JPG"
-    }, {
+     {
       id: 5,
       name: "Fire",
       image: "https://user-images.githubusercontent.com/44556715/90457272-14309d00-e0c9-11ea-8611-9a53a58086e7.JPG"
@@ -160,15 +157,36 @@ class Artwork extends Component {
       id: 6,
       name: "Water",
       image: "https://user-images.githubusercontent.com/44556715/90457274-14309d00-e0c9-11ea-976f-c7e58748c066.JPG"
-    }, {
+    }, 
+    {
+      id: 4,
+      name: "Dog",
+      image: "https://user-images.githubusercontent.com/44556715/90457271-13980680-e0c9-11ea-9b35-f6cb875ac530.JPG"
+    },
+    {
       id: 7,
       name: "Earth",
       image: "https://user-images.githubusercontent.com/44556715/90457276-14309d00-e0c9-11ea-9bec-f8ed95268745.JPG"
-    }, {
+    }, 
+    {
+      id: 21,
+      name: "Portrait1",
+      image: "https://user-images.githubusercontent.com/44556715/131847256-66226c51-1b74-4d0e-a05a-f9f0b87a1240.jpeg"
+    },
+    {
+      id: 22,
+      name: "Portrait2",
+      image: "https://user-images.githubusercontent.com/44556715/131847707-9a512fa0-e1e8-4c66-8067-4595bd0b0367.jpeg"
+    },{
       id: 8,
       name: "Wind",
       image:"https://user-images.githubusercontent.com/44556715/90457277-14c93380-e0c9-11ea-8a59-476ec3ef5116.JPG"
-    }, {
+    }, 
+    {
+      id: 22,
+      name: "Skyscraper",
+      image: "https://user-images.githubusercontent.com/44556715/131848235-b5a6b0af-7f76-45c2-926c-bd560b10e40d.jpeg"
+    },{
       id: 9,
       name: "Eye fire",
       image: "https://user-images.githubusercontent.com/44556715/90457278-14c93380-e0c9-11ea-85c6-26cd6da189e5.JPG"
@@ -181,6 +199,7 @@ class Artwork extends Component {
       name: "Watch",
       image: "https://user-images.githubusercontent.com/44556715/90457282-15fa6080-e0c9-11ea-9480-dcb243ce4c19.jpeg"
     }, 
+    /* 
     {
       id: 17,
       name: "Skeleton",
@@ -190,7 +209,9 @@ class Artwork extends Component {
       id: 16,
       name: "Eggs",
       image: "https://user-images.githubusercontent.com/44556715/90457290-18f55100-e0c9-11ea-9478-c803d83f7b43.JPG"
-    },{
+    },
+  */ 
+  {
       id: 15,
       name: "Hand animated",
       image: "https://user-images.githubusercontent.com/44556715/90457285-1692f700-e0c9-11ea-900b-24937e305571.gif"
