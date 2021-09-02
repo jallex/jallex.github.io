@@ -67,7 +67,6 @@ render() {
         <ul>
           <li>Reads and displays .obj files created using C++, SDL, and OpenGL.</li>
           <li>Mesh Decimation implemented using the Edge Collapse algorithm, and decimates mesh by a user specified percentage.</li>
-          <li>Created for course CS4300 Computer Graphics.</li>
         </ul>
         <a href="https://github.com/jallex/Mesh-Decimation" rel="noopener noreferrer" target="_blank">
           See project!
@@ -109,12 +108,9 @@ render() {
       <Card.Text>
       <ul class="my-list-style">
               <li>Tracked human body parts using computer vision in markerless mocap system on rgb video, which then had 3D reconstruction performed on 2D video coordinates.</li>
-              <li>Created 3D animation of human skeleton and objects such as juggling balls using Python and Blender API</li>   </ul>
-              {this.state.showMessageAutoLabel && <ul class="my-list-style">
+              <li>Created 3D animation of human skeleton and objects such as juggling balls using Python and Blender API</li>
               <li>Using API, created empties at each marker location, connected them with bones, rigged armature to custom mesh, added materials, lighting 
-                and cameras.</li>
-              </ul>}
-              <i onClick={() => this.onButtonClickHandler('autolabel')} className = "more-button" aria-hidden="true">{this.displayText(this.state.showMessageAutoLabel)}</i>
+                and cameras.</li>   </ul>
               <a href="https://github.com/MatthisLab/VisualizationGoProMocap" rel="noopener noreferrer" target="_blank">
           See project!
           </a>
@@ -326,7 +322,8 @@ Able to open saved sheets or create a new one. </li>
       </Card.Text>
     </Card.Footer>
   </Card>
-  <Card>
+  
+  {/* <Card>
   <img
       className="d-block w-100"
       src={"https://user-images.githubusercontent.com/44556715/90459174-8788dd80-e0ce-11ea-9f1c-d7c21e4df6d9.PNG"}
@@ -349,6 +346,7 @@ Able to open saved sheets or create a new one. </li>
       </Card.Text>
     </Card.Footer>
   </Card>
+  */}
 </CardDeck>
 </div>
     )

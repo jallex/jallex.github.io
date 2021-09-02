@@ -101,10 +101,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  </CardDeck>
-
-<CardDeck className="deck1">
-           <Card>
+  <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
@@ -142,7 +139,11 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  <Card>
+  </CardDeck>
+
+
+           <CardDeck className="deck1">
+           <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
@@ -158,7 +159,7 @@ class Work3D extends Component {
       alt="First slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  {/* <Carousel.Item>
     <img
       className="d-block w-100"
       src={"https://user-images.githubusercontent.com/44556715/102717496-b7c8ce80-42b0-11eb-9b24-3f7e60a5ccba.png"}
@@ -179,13 +180,14 @@ class Work3D extends Component {
       alt="First slide"
     />
   </Carousel.Item>
+  */} 
   </Carousel>
     <Card.Body>
       <Card.Title>Character Model</Card.Title>
       <Card.Text>
       <div className= "cardtext">
-       Character modeled from scratch in Maya, and textures created with Substance Painter and Photoshop. <br /> 
-       I took video game concept art of a character from Horizon Zero Dawn as reference, and modeled as well as textured the body, face, hands, clothes, and entire model. 
+       Character modeled from scratch in Maya, and textures created with Substance Painter and Photoshop. 
+       Rendered using Arnold. <br /> 
       </div>
       </Card.Text>
     </Card.Body>
@@ -195,10 +197,6 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  </CardDeck>
-
-
-           <CardDeck className="deck1">
            <Card>
     <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90456843-f6af0380-e0c7-11ea-86c5-20096f24363f.png"} />
     <Card.Body>
@@ -231,7 +229,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  <Card>
+  {/* 
            <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90457038-750ba580-e0c8-11ea-889b-40087c6dbdc4.png"} />
     <Card.Body>
       <Card.Title>Talent Show </Card.Title>
@@ -247,6 +245,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
+  */}
 </CardDeck>
 </div>
     )
