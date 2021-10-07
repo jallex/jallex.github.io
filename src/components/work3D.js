@@ -187,6 +187,7 @@ class Work3D extends Component {
       <Card.Text>
       <div className= "cardtext">
        Character modeled from scratch in Maya, and textures created with Substance Painter and Photoshop. 
+       Character referenced from Horizon Zero Dawn character sheets, and further stylized. 
        Rendered using Arnold. <br /> 
       </div>
       </Card.Text>
