@@ -12,7 +12,7 @@ function About() {
             </div>
             <h4>I am an undergrad at Northeastern University studying Computer Science and Media Arts, 
               a computer graphics major under the Computer and Information Sciences Department.</h4>
-              <h4>Topics that excite me are animation tools, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
+              <h4>A few topics that excite me are artist-facing tools for DCCs, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
                 enjoy drawing, playing guitar, being outdoors, and spending time with friends.
               </h4>
               <h4> My experience: 
