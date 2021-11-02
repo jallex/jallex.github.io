@@ -10,10 +10,9 @@ function About() {
             <img className="background-img" alt="" src={"https://user-images.githubusercontent.com/44556715/90456642-7ee0d900-e0c7-11ea-819d-5522d9baf8d5.png"}/>
             <h1>Hello! My name is Jackie, and I'm a computer graphics developer. </h1>
             </div>
-            <h4>I am an undergrad at Northeastern University studying Computer Science and Media Arts, 
-              a computer graphics major under the Computer and Information Sciences Department.</h4>
-              <h4>A few topics that excite me are artist-facing tools for DCCs, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
-                enjoy drawing, playing guitar, being outdoors, and spending time with friends.
+            <h4>I am an undergrad at Northeastern University studying Computer Science and Media Arts.</h4>
+              <h4>A few topics that excite me are programming artist-facing tools for DCCs, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
+                enjoy drawing, playing guitar, being outdoors, and watching animated films.
               </h4>
               <h4> My experience: 
                 <ul>
