@@ -35,7 +35,7 @@ render() {
      <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/125170983-be049680-e17f-11eb-9910-0e927a79f48a.png"}
+      src={"https://user-images.githubusercontent.com/44556715/139949692-78640de6-499b-4761-885d-53c973e87f24.png"}
       alt="First slide"
     />
   </Carousel.Item>
@@ -67,6 +67,8 @@ render() {
         <ul>
           <li>Reads and displays .obj files created using C++, SDL, and OpenGL.</li>
           <li>Mesh Decimation implemented using the Edge Collapse algorithm, and decimates mesh by a user specified percentage.</li>
+          <li>Allows for loading in different .obj meshes and cycling through various models.</li>
+          <li>Currently building off of this project to create a Progressive Mesh and LOD system.</li>
         </ul>
         <a href="https://github.com/jallex/Mesh-Decimation" rel="noopener noreferrer" target="_blank">
           See project!
@@ -79,6 +81,7 @@ render() {
       </Card.Text>
     </Card.Footer>
   </Card>
+
   <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
@@ -122,7 +125,69 @@ render() {
       </Card.Text>
     </Card.Footer>
   </Card>
+
   <Card>
+  <Carousel interval = "100000000000000">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/139947367-d75c7c20-81db-4c9b-b03e-5a4244a10fe1.png"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/138212661-d20f39b0-f849-45e0-b1cd-94a4d40f1a6a.png"}
+      alt="Second slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/138212284-75eeee67-fd42-4c19-9728-0436d840b27d.gif"}
+      alt="Second slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/138215279-8c1dd95f-d149-4c1e-bea2-7102cefbd166.gif"}
+      alt="Second slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/138213086-80d059ad-b39e-468b-b174-981216de290a.gif"}
+      alt="Second slide"
+    />
+  </Carousel.Item>
+</Carousel>
+    <Card.Body>
+      <Card.Title>Maya Tool : Place Around Center</Card.Title>
+      <Card.Text>
+      <ul class="my-list-style">
+              <li>A Maya tool written in Python3 using maya.cmds and Qt that allows users to easily and quickly place objects in/around another object with a set radius and many other customizable parameters.</li>
+              <li>Allows user to place many selected objects in an even circle or randomly around a center object.</li>   
+              <li>Includes ability to place around the perimeter of a circle, or around radius of a sphere.</li>
+              </ul>
+              <a href="https://github.com/jallex/Maya_Tool_Place_Around_Center" rel="noopener noreferrer" target="_blank">
+          See project!
+          </a>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya tools | Python | Qt
+      </Card.Text>
+    </Card.Footer>
+  </Card>
+  
+</CardDeck>
+
+<CardDeck className="deck1">
+<Card>
      <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
@@ -166,10 +231,6 @@ normal determination, antialiasing, materials with refraction and reflection, an
       </Card.Text>
     </Card.Footer>
   </Card>
-  
-</CardDeck>
-
-<CardDeck className="deck1">
 <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
@@ -216,7 +277,7 @@ normal determination, antialiasing, materials with refraction and reflection, an
       </Card.Text>
     </Card.Footer>
   </Card>
-  <Card>
+  {/* <Card>
   <Carousel interval ="100000000000000">
   <Carousel.Item>
     <img
@@ -272,7 +333,7 @@ normal determination, antialiasing, materials with refraction and reflection, an
         Graphics Programming | Unity | C#
       </Card.Text>
     </Card.Footer>
-  </Card>
+  </Card> */}
   <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
