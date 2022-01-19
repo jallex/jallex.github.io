@@ -67,8 +67,8 @@ render() {
         <ul>
           <li>Reads and displays .obj files created using C++, SDL, and OpenGL.</li>
           <li>Mesh Decimation implemented using the Edge Collapse algorithm, and decimates mesh by a user specified percentage.</li>
-          <li>Allows for loading in different .obj meshes and cycling through various models.</li>
-          <li>Currently building off of this project to create a Progressive Mesh and LOD system.</li>
+          <li>Implemented a greedy version of the algorithm to optimize reducing dense meshes.</li>
+          <li>Built off of this project to create a Progressive Mesh and LOD system.</li>
         </ul>
         <a href="https://github.com/jallex/Mesh-Decimation" rel="noopener noreferrer" target="_blank">
           See project!
@@ -111,9 +111,7 @@ render() {
       <Card.Text>
       <ul class="my-list-style">
               <li>Tracked human body parts using computer vision in markerless mocap system on rgb video, which then had 3D reconstruction performed on 2D video coordinates.</li>
-              <li>Created 3D animation of human skeleton and objects such as juggling balls using Python and Blender API</li>
-              <li>Using API, created empties at each marker location, connected them with bones, rigged armature to custom mesh, added materials, lighting 
-                and cameras.</li>   </ul>
+              <li>Implemented code to automatically create an animated skeleton armature from mocap data and 3D file export system leveraging Blender's Python API for artists to use. </li>   </ul>
               <a href="https://github.com/MatthisLab/VisualizationGoProMocap" rel="noopener noreferrer" target="_blank">
           See project!
           </a>
@@ -121,7 +119,7 @@ render() {
     </Card.Body>
     <Card.Footer>
     <Card.Text>
-        Graphics Programming | Research | Python
+        Graphics Programming | Blender | Motion Capture | Python | Research 
       </Card.Text>
     </Card.Footer>
   </Card>
@@ -179,7 +177,7 @@ render() {
     </Card.Body>
     <Card.Footer>
     <Card.Text>
-        Maya tools | Python | Qt
+        Maya tools | DCC | Python | Qt
       </Card.Text>
     </Card.Footer>
   </Card>
@@ -263,7 +261,7 @@ normal determination, antialiasing, materials with refraction and reflection, an
               <li>Developed tool that creates an animated armature with keyframed data for each bone, creates mesh and parented to armature, applies material and lighting to scene, 
                 incorporates force plate data, matches frame rates, renders out frames </li>   
               
-              <li> Calculated vectors and matrices related to position and rotation quaternions in 3D space, performed calibrations, projected rays, manipulated cameras and rigid bodies.</li>
+              <li> Calculated vectors and matrices related to position and rotation quaternions in 3D space, projected rays, manipulated cameras and rigid bodies.</li>
               <li>Wrote post-processing system to create fluid pipeline converting across different data file formats.</li>
               </ul>
               <a href="https://github.com/MatthisLab/Mocap-Cyr-Wheel" rel="noopener noreferrer" target="_blank">
@@ -362,7 +360,7 @@ normal determination, antialiasing, materials with refraction and reflection, an
       <Card.Title>Spreadsheet (Mini Excel)</Card.Title>
       <Card.Text>
        <ul class="my-list-style">
-<li>Using Java and Swing and the MVC design pattern, I created a working spreadsheet similar to Microsoft Excel and  Google Sheets."
+<li>Using Java and Swing and the MVC design pattern, I created a working spreadsheet similar to Microsoft Excel and  Google Sheets.
 Able to open saved sheets or create a new one. </li>
 <li>Allows for infinite scrolling.</li>
 <li>GoF patterns used: Composition, Visitor, Builder, Command, Observor</li></ul>
@@ -373,7 +371,6 @@ Able to open saved sheets or create a new one. </li>
 <li>Extensive unit testing.</li></ul>}
 <i onClick={() => this.onButtonClickHandler('spreadsheet')} className = "more-button" aria-hidden="true">{this.displayText(this.state.showMessageSpreadsheet)}</i>
 
-        Project code available upon request.
       </Card.Text>
     </Card.Body>
     <Card.Footer>

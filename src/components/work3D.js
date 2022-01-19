@@ -52,7 +52,7 @@ class Work3D extends Component {
       <Card.Title>Game Animations </Card.Title>
       <Card.Text>
       <div className="cardtext">
-        Walk cycle, run cycle, idle cycle, and kick animated in Maya for export into Unreal Engine 4.
+        Keyframed animation of walk cycle, run cycle, idle cycle, and kick created in Maya, using video reference, for export into Unreal Engine 4.
         <br />
         Rigged character asset from Adobe Mixamo. 
         </div>
@@ -64,19 +64,63 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
+
   <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102789144-b90e0000-4371-11eb-9639-10d6cb76e4f3.png"}
+      src={"https://user-images.githubusercontent.com/44556715/150207455-15d82d23-0ff4-4cb7-9093-fb3fccb14766.png"}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102803067-a9001b80-4385-11eb-89f9-6c49cd778834.png"}
+      src={"https://user-images.githubusercontent.com/44556715/150209130-d9c578db-7720-408b-80c9-187302607a3b.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150209490-d077cac4-8df7-474e-9834-53712774ea58.png"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+ </Carousel>
+    <Card.Body>
+      <Card.Title>Fin - Original Character </Card.Title>
+      <Card.Text>
+      <div className= "cardtext">
+        Designed an original character, Fin (the guardian of fish souls, the grim-reaper but for fish).
+        <br /> Sculpted, retopologized, UV unwrapped, and textured in ZBrush, Maya, and Substance Painter.
+        <br /> Rigged and posed model in Maya with help from Advanced Skeleton.
+
+          </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | ZBrush | Substance Painter | Rigging
+      </Card.Text>
+    </Card.Footer>
+  </Card>
+
+  
+  <Card>
+  <Carousel interval = "100000000000000">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150206830-9239f7fc-e9f2-4e29-ba70-e7382d00a790.png"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150206984-e320b1bb-4f6e-4b60-aac5-c69ca0ebf685.png"}
       alt="First slide"
     />
   </Carousel.Item>
@@ -85,11 +129,11 @@ class Work3D extends Component {
       <Card.Title>Before Dawn </Card.Title>
       <Card.Text>
       <div className= "cardtext">
-        RPG created using Unreal Engine 4, with all environment assets modeled, sculpted, and textured from scratch in Maya, ZBrush and Substance Painter. Environment created in collaboration with 2 other artists.
-        <br /> I made all character animations, and created blueprints in UE4 for the animation controller and to allow user functionality, such as the camera controller to allow switching between first person and third person in game.
+        RPG created with 2 other artists, using Unreal Engine 4, with all environment assets created using Maya, ZBrush, and Substance Painter. Environment created in collaboration with 2 other artists.
+        <br /> I made all character animations, and created blueprints in UE4 for user interaction such as the animation controller and camera controller.
         <br /> I was responsible for the sky, river, cabin, their textures, normal maps, environment lighting. All environment models are low-poly. 
          
-        <br /><a href="https://vimeo.com/493464875" rel="noopener noreferrer" target="_blank">
+        <br /><a href="https://vimeo.com/663114664" rel="noopener noreferrer" target="_blank">
           See project!
           </a>
           </div>
@@ -101,26 +145,30 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  <Card>
+  </CardDeck>
+
+
+           <CardDeck className="deck1">
+           <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/99191394-73d72c80-273a-11eb-8c71-954fc65aefc9.jpg"}
+      src={"https://user-images.githubusercontent.com/44556715/147372789-cc49f102-495f-44f6-bf4b-17194c7921db.jpg"}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102714720-7fb89000-429e-11eb-9308-cbf302f9b0d8.jpg"}
+      src={"https://user-images.githubusercontent.com/44556715/147372759-ae1ed26a-2b8a-47dd-b614-5b37796ad9a5.jpg"}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/99191401-76398680-273a-11eb-9a0c-766886960023.jpg"}
+      src={"https://user-images.githubusercontent.com/44556715/147372768-7d01e35f-6928-4ea2-b15e-f3fa4c035e05.jpg"}
       alt="First slide"
     />
   </Carousel.Item>
@@ -129,7 +177,7 @@ class Work3D extends Component {
       <Card.Title>Kitchen Environment </Card.Title>
       <Card.Text>
       <div className= "cardtext">
-       I modeled my kitchen from scratch using real-life reference, done in Maya. Technical execution included utilizing holding edges, and keeping realistic proportions and forms. Shaded with natural surfacing using Arnold AI Standard Surfaces so that metallic objects appear specular, and others diffuse.
+       I modeled my kitchen using real-life reference, in Maya. Shaded with natural surfacing using Arnold AI Standard Surfaces.
       </div>
       </Card.Text>
     </Card.Body>
@@ -139,10 +187,6 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  </CardDeck>
-
-
-           <CardDeck className="deck1">
            <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
@@ -198,13 +242,13 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-           <Card>
+           {/* <Card>
     <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90456843-f6af0380-e0c7-11ea-86c5-20096f24363f.png"} />
     <Card.Body>
       <Card.Title>Chair 3D model for AR</Card.Title>
       <Card.Text>
       <div className= "cardtext">
-        Chair 3D asset modeled from scratch based on photo reference for furniture company's AR feature, allowing customers to see the furniture with completely accurate size, textures, and colors in their room before purchasing.
+        Chair 3D asset modeled based on photo reference for furniture company's AR feature, allowing customers to see the furniture with completely accurate size, textures, and colors in their room before purchasing.
       </div>
       </Card.Text>
     </Card.Body>
@@ -213,7 +257,46 @@ class Work3D extends Component {
         3D Modeling | Blender | Shading | UV unwrap | Bake 
       </Card.Text>
     </Card.Footer>
+  </Card> */}
+  <Card>
+  <Carousel interval = "100000000000000">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150211632-6fed0123-2e2c-4bbc-a964-62d726c8e72b.PNG"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150212104-6210882d-4232-4ade-a0b9-c9446787aa27.PNG"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/150212333-fb40976d-e685-470e-8614-491c853327e9.PNG"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+ </Carousel>
+    <Card.Body>
+      <Card.Title>VR Chair Model</Card.Title>
+      <Card.Text>
+      <div className= "cardtext">
+        Designed a VR Chair as a game asset. Modeled in Maya and textured in Substance Painter. 
+      </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        3D Modeling | Maya | Substance Painter 
+      </Card.Text>
+    </Card.Footer>
   </Card>
+  {/*}
   <Card>
     <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90456909-1cd4a380-e0c8-11ea-9953-5100731ec972.png"} />
     <Card.Body>
@@ -230,6 +313,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
+*/}
   {/* 
            <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90457038-750ba580-e0c8-11ea-889b-40087c6dbdc4.png"} />
     <Card.Body>
