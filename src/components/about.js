@@ -11,8 +11,8 @@ function About() {
             <h1>Hello! My name is Jackie, and I'm a creative technologist. </h1>
             </div>
             <h4>I am an undergrad at Northeastern University studying Computer Science and Media Arts.</h4>
-              <h4>A few topics that excite me are computer graphics development, programming artist-facing tools for DCCs, digital simulation, VFX, R&D, virtual reality, and game development! In my freetime I 
-                enjoy drawing, playing guitar, being outdoors, and watching animated films.
+              <h4>A few topics that excite me are computer graphics development, programming artist-facing tools for DCCs, VFX, and game development! In my freetime I 
+                enjoy drawing, playing guitar, and being outdoors.
               </h4>
               <h4> My experience: 
                 <ul>

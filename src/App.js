@@ -20,12 +20,12 @@ const App = () => {
 <div style=
   {{width: '100%', margin: 0}} className="div2"><Fade><About/></Fade>
       </div> 
-       {/*
+       
       <div style=
   {{width: '100%', margin: 0}} className="div3">
   <DemoReel/>
       </div>
-      */}
+     
       <div style=
   {{width: '100%', margin: 0}} className="div4">
       <Code/>
