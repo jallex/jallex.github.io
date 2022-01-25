@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
+import ReactPlayer from "react-player"
 import './demoReel.css';
 
 class DemoReel extends Component {
   render() {
     return(
       <div className="demo-reel-page" id="demo-reel"><h1>Demo Reel</h1>
-      <p>Still a work in progress!</p>
-      </div>
+      <ReactPlayer className='demo_player'
+        url="https://vimeo.com/669699123"
+        className='react-player'
+        width='80%'
+        height='80%'
+        controls='true'
+      />
+    </div>
     )
   }
 }
