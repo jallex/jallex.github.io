@@ -16,12 +16,12 @@ function About() {
               </h4>
               <h4> My experience: 
                 <ul>
-                <li><b>Disney Research</b> spring 2022</li>
-                <li><b>SIGGRAPH</b> 2021 student volunteer</li>
-                <li><b>Electronic Arts</b> summer 2021 (Tech Art Internship)</li>
+                <li><b>Pixar Animation Studios</b> summer 2022 (Software Engineer - Applications intern)</li>
+                <li><b>Disney Research Imagineering</b> spring 2022 (R&D intern)</li>
+                <li><b>SIGGRAPH</b>  2022 TL, 2021 SV </li>
+                <li><b>Electronic Arts</b> summer 2021 (Tech Art intern)</li>
                 <li><b>ILM, Lucasfilm</b>  spring 2021 (Core Pipeline Software Co-op)</li>
-                <li><b>Human Movement Lab</b> all of 2020 (Motion Capture engineering, VR, Computer Graphics, Python, Blender)</li>
-                <li><b>Scout Studio</b>  fall 2019 (React.js, web development, design) </li>
+                <li><b>Human Movement Lab</b> all of 2020 (Motion Capture engineer)</li>
                 <li><b>Bank of America</b> summer 2019 (React.js, Node.js, web development)</li>
                 </ul> 
             </h4> 
