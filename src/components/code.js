@@ -190,21 +190,28 @@ render() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/91363232-2e096880-e7ca-11ea-8830-abe13dfff70e.png"}
+      src={"https://user-images.githubusercontent.com/44556715/182992916-35dc6b09-315e-47a2-9fc8-cd22bcd81e48.png"}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/91363259-3c578480-e7ca-11ea-9e96-c32ff6969682.png"}
+      src={"https://user-images.githubusercontent.com/44556715/182992074-9fbf846e-d478-4be5-a64c-de89a1109670.gif"}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/90033511-8e0df400-dc8d-11ea-883d-ce077dcdc1ec.png"}
+      src={"https://user-images.githubusercontent.com/44556715/182992919-45442b48-fabe-44be-8c86-42deaf4947f1.png"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/182992917-99ea44a6-9eec-4db8-98fb-740ccf4baa35.png"}
       alt="First slide"
     />
   </Carousel.Item>

@@ -18,7 +18,9 @@ function About() {
                 <ul>
                 <li><b>Pixar Animation Studios</b> summer 2022 (Software Engineer - Applications intern)</li>
                 <li><b>Disney Research Imagineering</b> spring 2022 (R&D intern)</li>
-                <li><b>SIGGRAPH</b>  2022 TL, 2021 SV </li>
+                <li><b><a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        Google
+      </a></b>  2022 TL, 2021 SV </li>
                 <li><b>Electronic Arts</b> summer 2021 (Tech Art intern)</li>
                 <li><b>ILM, Lucasfilm</b>  spring 2021 (Core Pipeline Software Co-op)</li>
                 <li><b>Human Movement Lab</b> all of 2020 (Motion Capture engineer)</li>
