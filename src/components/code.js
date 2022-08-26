@@ -110,8 +110,9 @@ render() {
       <Card.Title>Markerless Mocap Data Animation</Card.Title>
       <Card.Text>
       <ul class="my-list-style">
-              <li>Tracked human body parts using computer vision in markerless mocap system on rgb video, which then had 3D reconstruction performed on 2D video coordinates.</li>
-              <li>Implemented code to automatically create an animated skeleton armature from mocap data and 3D file export system leveraging Blender's Python API for artists to use. </li>   </ul>
+              <li> Leveraged Blender's Python API to create tool which automatically produces an animated skeleton armature from markerless mocap data. </li>  
+              <li>Cleaned large amounts of mocap data and leveraged Blender's API to create an automated animation
+export system which exports animationed keyframed and baked on armature and mesh as an FBX, GLTF, or USD file.</li> </ul>
               <a href="https://github.com/MatthisLab/VisualizationGoProMocap" rel="noopener noreferrer" target="_blank">
           See project!
           </a>
@@ -198,6 +199,20 @@ render() {
     <img
       className="d-block w-100"
       src={"https://user-images.githubusercontent.com/44556715/182992074-9fbf846e-d478-4be5-a64c-de89a1109670.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/186820955-1dbda14e-a47b-4953-afcc-129696a047fb.png"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/186820971-58e89880-d49d-4e46-b3b6-7d6c267b39a1.gif"}
       alt="First slide"
     />
   </Carousel.Item>

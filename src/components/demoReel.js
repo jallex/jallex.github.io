@@ -7,7 +7,7 @@ class DemoReel extends Component {
     return(
       <div className="demo-reel-page" id="demo-reel"><h1>Demo Reel</h1>
       <ReactPlayer className='demo_player'
-        url="https://vimeo.com/669699123"
+        url="https://vimeo.com/743299614"
         className='react-player'
         width='80%'
         height='80%'
