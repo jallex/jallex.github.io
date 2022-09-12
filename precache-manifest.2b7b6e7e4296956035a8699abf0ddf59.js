@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93420955cb47fd84fc655873b918ffd4",
+    "revision": "a4bacc5c93fdbb48fc94aca6ce1630c1",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.7e20b506.chunk.css"
   },
   {
-    "revision": "1e723b807194ccce71b3",
+    "revision": "59b52c3ee78e8259fcc9",
     "url": "/static/css/main.de842cda.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c06af41b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e723b807194ccce71b3",
-    "url": "/static/js/main.63ad587c.chunk.js"
+    "revision": "59b52c3ee78e8259fcc9",
+    "url": "/static/js/main.227c8026.chunk.js"
   },
   {
     "revision": "3bd8e1cffca83cdfd31f",
     "url": "/static/js/runtime-main.cf6344f1.js"
   },
   {
-    "revision": "31dd4d76e9981c33fe05187ef8365973",
-    "url": "/static/media/2021_Jackie_Allex_resume.31dd4d76.pdf"
+    "revision": "d092143a27dff1a5f3cd322b5f2722b9",
+    "url": "/static/media/2021_Jackie_Allex_resume.d092143a.pdf"
   }
 ]);
