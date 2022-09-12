@@ -240,7 +240,7 @@ export system which exports animationed keyframed and baked on armature and mesh
 normal determination, antialiasing, materials with refraction and reflection, and cameras.</li>
     <li>Based on Peter Shirley's Raytracer Series.</li>
         </ul>
-        <a href="https://github.com/jallex/Raytracer" rel="noopener noreferrer" target="_blank">
+        <a href="https://github.com/jallex/Raytracer_Renderer" rel="noopener noreferrer" target="_blank">
           See project!
           </a>
       </Card.Text>
