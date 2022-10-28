@@ -21,10 +21,10 @@ const App = () => {
   {{width: '100%', margin: 0}} className="div2"><Fade><About/></Fade>
       </div> 
        
-      <div style=
+      {/* <div style=
   {{width: '100%', margin: 0}} className="div3">
   <DemoReel/>
-      </div>
+      </div> */}
      
       <div style=
   {{width: '100%', margin: 0}} className="div4">
