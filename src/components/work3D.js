@@ -54,7 +54,6 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-  {/*}
   <Card>
   <img
       className="d-block w-100"
