@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './work3D.css';
 import { Card, CardDeck, Carousel } from "react-bootstrap";
+import demo_kitchen from "../demo_images/color_kitchen.gif"
 
 class Work3D extends Component {
   
@@ -11,56 +12,89 @@ class Work3D extends Component {
 
 <CardDeck className="deck1">
            <Card>
-           <Carousel interval = "100000000000000">
-  <Carousel.Item>
-    <img
+           <img
       className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102719179-9076ff00-42ba-11eb-8f13-094b661d6a7a.jpg"}
+      src={"https://github.com/jallex/Mesh-Decimation/assets/44556715/616a4944-ccf5-498e-a33c-9116f82bc6f3"}
       alt="First slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102735172-b67abe80-430f-11eb-822d-8c4fc720be8b.gif"}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102735342-22f5bd80-4310-11eb-8241-6639c351a151.gif"}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102781932-78f55000-4366-11eb-8f9a-e75b5078b92e.gif"}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://user-images.githubusercontent.com/44556715/102734786-ac0bf500-430e-11eb-9bdd-4617593cf5fa.gif"}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  </Carousel>
     <Card.Body>
-      <Card.Title>Game Animations </Card.Title>
+      <Card.Title>Sunflower Field Still </Card.Title>
       <Card.Text>
       <div className="cardtext">
-        Keyframed animation of walk cycle, run cycle, idle cycle, and kick created in Maya, using video reference, for export into Unreal Engine 4.
+        3D original character Bella, in a 2D hand painted sunflower field.
         <br />
-        Rigged character asset from Adobe Mixamo. 
+        Rendered in Maya with Arnold, painted in Photoshop. 
         </div>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
     <Card.Text>
-        Maya | Game Animation 
+        Maya | Photoshop 
+      </Card.Text>
+    </Card.Footer>
+  </Card>
+
+  <Card>
+  <img
+      className="d-block w-100"
+      src={"https://github.com/jallex/Mesh-Decimation/assets/44556715/7e43fbbc-dfc8-4b5f-8ae9-4be16d7bb82a"}
+      alt="First slide"
+    />
+    <Card.Body>
+      <Card.Title>Bella - Original Character </Card.Title>
+      <Card.Text>
+      <div className= "cardtext">
+        Original character modeled/sculpted with Maya and ZBrush, shaded in Substance Painter, rigged and posed in Maya and rendered with Arnold.
+          </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | ZBrush | Substance Painter  
+      </Card.Text>
+    </Card.Footer>
+  </Card>
+  <Card>
+  <img
+      className="d-block w-100"
+      src={"https://github.com/jallex/Mesh-Decimation/assets/44556715/c121bb34-edcd-4e54-bfd0-bb91004f3bc9"}
+      alt="First slide"
+    />
+    <Card.Body>
+      <Card.Title>Bella Walk Animation </Card.Title>
+      <Card.Text>
+      <div className= "cardtext">
+        Animated looping walk animation for original character in Maya. 
+          </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | Animation
+      </Card.Text>
+    </Card.Footer>
+  </Card>
+  </CardDeck>
+
+
+<CardDeck className="deck1">
+<Card>
+  <img
+      className="d-block w-100"
+      src={demo_kitchen}
+      alt="First slide"
+    />
+    <Card.Body>
+      <Card.Title>Kitchen Scene </Card.Title>
+      <Card.Text>
+      <div className= "cardtext">
+       Animated two original characters in environment. Lit and shaded scene, the kitchen environment model was created by Pixar. Shaded with natural surfacing using Arnold AI Standard Surfaces.
+      </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | Shading | Animation
       </Card.Text>
     </Card.Footer>
   </Card>
@@ -149,6 +183,60 @@ class Work3D extends Component {
 
 
            <CardDeck className="deck1">
+           <Card>
+           <Carousel interval = "100000000000000">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102719179-9076ff00-42ba-11eb-8f13-094b661d6a7a.jpg"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102735172-b67abe80-430f-11eb-822d-8c4fc720be8b.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102735342-22f5bd80-4310-11eb-8241-6639c351a151.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102781932-78f55000-4366-11eb-8f9a-e75b5078b92e.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102734786-ac0bf500-430e-11eb-9bdd-4617593cf5fa.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  </Carousel>
+    <Card.Body>
+      <Card.Title>Game Animations </Card.Title>
+      <Card.Text>
+      <div className="cardtext">
+        Keyframed animation of walk cycle, run cycle, idle cycle, and kick created in Maya, using video reference, for export into Unreal Engine 4.
+        <br />
+        Rigged character asset from Adobe Mixamo. 
+        </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | Game Animation 
+      </Card.Text>
+    </Card.Footer>
+  </Card>
            <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
@@ -258,6 +346,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card> */}
+  {/*}
   <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
