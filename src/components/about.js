@@ -28,40 +28,43 @@ function About() {
           <ul>
             <li>
               <b>Pixar Animation Studios</b> <br />
-              February 2023 - present
-              (Lightspeed Technical Director Resident)
+              - Inside Out 2, Dailies Lightspeed Rendering TD <br />
+              - Elio, Lightspeed Technical Director <br />
+              (February 2023 - present)
               <br />
-              Summer 2022 (Software Engineer - Applications intern)
+              - Software Engineer - Applications intern <br />
+              (Summer 2022)
             </li>
             <li>
               <b>Disney Research Imagineering</b>
               <br />
-              Spring 2022 (R&D intern)
+              - R&D intern (Spring 2022)
             </li>
             <li>
               <b>Electronic Arts</b>
               <br />
-              Summer 2021 (Tech Art intern)
+              - Tech Art intern (Summer 2021)
             </li>
             <li>
               <b>ILM, Lucasfilm</b>
               <br />
-              Spring 2021 (Core Pipeline Software Co-op)
+              - Core Pipeline Software Co-op (Spring 2021)
             </li>
             <li>
               <b>Human Movement Lab</b>
               <br />
-              All of 2020 (Motion Capture engineer)
+              - Motion Capture Engineer (All of 2020)
             </li>
             <li>
               <b>Bank of America</b>
               <br />
-              Summer 2019 (React.js, Node.js, web development)
+              - ReactJS Web App Developer intern (Summer 2019)
             </li>
             <li>
-              <b>SIGGRAPH</b>
+              <b>SIGGRAPH Conference</b>
               <br />
-              2023 + 2022 Team Leader, 2021 Student Volunteer
+              - Team Leader 2023 & 2022 <br />
+              - Student Volunteer 2021
             </li>
           </ul>
         </h4>
