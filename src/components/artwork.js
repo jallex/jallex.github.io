@@ -126,7 +126,7 @@ class Artwork extends Component {
     }
     const data = [ 
       {
-        id: 20,
+        id: 22,
         name: "Demon concert",
         image: "https://user-images.githubusercontent.com/44556715/108859354-21b86980-75bb-11eb-9f57-ea6c7f946731.png"
       },
@@ -136,28 +136,35 @@ class Artwork extends Component {
         image: "https://user-images.githubusercontent.com/44556715/108859790-94c1e000-75bb-11eb-9076-ab1c905272d2.png"
       },
       {
-        id: 1,
-        name: "Ballet",
-        image: "https://user-images.githubusercontent.com/44556715/90457265-1266d980-e0c9-11ea-896a-1ad1f15c09d3.png"
-      }, {
-      id: 3,
-      name: "Bottles",
-      image: "https://user-images.githubusercontent.com/44556715/90457270-13980680-e0c9-11ea-8eb7-6a731c506df7.jpg"
-    },
+        id: 21,
+        name: "Grad Cap",
+        image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444304657-bfb4c1de-c604-44d4-b6da-f9036d266a22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T214728Z&X-Amz-Expires=300&X-Amz-Signature=9abdc2b8ff5ec8de06faee6f496615c0e2dadd6c7c739353a81b2d28331ffd57&X-Amz-SignedHeaders=host"
+      },
+      {
+        id: 6,
+        name: "Water",
+        image: "https://user-images.githubusercontent.com/44556715/90457274-14309d00-e0c9-11ea-976f-c7e58748c066.JPG"
+      }, 
     {
-      id: 2,
-      name: "Forest",
-      image: "https://user-images.githubusercontent.com/44556715/90457269-13980680-e0c9-11ea-8a00-366dae248570.jpg"
+      id: 1,
+      name: "Ballet",
+      image: "https://user-images.githubusercontent.com/44556715/90457265-1266d980-e0c9-11ea-896a-1ad1f15c09d3.png"
     },
      {
       id: 5,
       name: "Fire",
       image: "https://user-images.githubusercontent.com/44556715/90457272-14309d00-e0c9-11ea-8611-9a53a58086e7.JPG"
-    }, {
-      id: 6,
-      name: "Water",
-      image: "https://user-images.githubusercontent.com/44556715/90457274-14309d00-e0c9-11ea-976f-c7e58748c066.JPG"
     }, 
+    {
+      id: 2,
+      name: "Forest",
+      image: "https://user-images.githubusercontent.com/44556715/90457269-13980680-e0c9-11ea-8a00-366dae248570.jpg"
+    },
+    {
+      id: 20,
+      name: "Moth wizard",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444304993-ede6afdf-f7ee-4fb9-b185-7fef0ad30a36.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T214902Z&X-Amz-Expires=300&X-Amz-Signature=14ebe8c536be88b43f8e37e4e4eac076278f4e00653bd0817abb5df0adf6d224&X-Amz-SignedHeaders=host"
+    },
     {
       id: 4,
       name: "Dog",
@@ -169,24 +176,26 @@ class Artwork extends Component {
       image: "https://user-images.githubusercontent.com/44556715/90457276-14309d00-e0c9-11ea-9bec-f8ed95268745.JPG"
     }, 
     {
-      id: 21,
-      name: "Portrait1",
-      image: "https://user-images.githubusercontent.com/44556715/131847256-66226c51-1b74-4d0e-a05a-f9f0b87a1240.jpeg"
+      id: 22,
+      name: "Skyscraper",
+      image: "https://user-images.githubusercontent.com/44556715/131848235-b5a6b0af-7f76-45c2-926c-bd560b10e40d.jpeg"
     },
     {
       id: 22,
       name: "Portrait2",
       image: "https://user-images.githubusercontent.com/44556715/131847707-9a512fa0-e1e8-4c66-8067-4595bd0b0367.jpeg"
-    },{
+    },
+    {
+      id: 21,
+      name: "Portrait1",
+      image: "https://user-images.githubusercontent.com/44556715/131847256-66226c51-1b74-4d0e-a05a-f9f0b87a1240.jpeg"
+    },
+    {
       id: 8,
       name: "Wind",
       image:"https://user-images.githubusercontent.com/44556715/90457277-14c93380-e0c9-11ea-8a59-476ec3ef5116.JPG"
     }, 
     {
-      id: 22,
-      name: "Skyscraper",
-      image: "https://user-images.githubusercontent.com/44556715/131848235-b5a6b0af-7f76-45c2-926c-bd560b10e40d.jpeg"
-    },{
       id: 9,
       name: "Eye fire",
       image: "https://user-images.githubusercontent.com/44556715/90457278-14c93380-e0c9-11ea-85c6-26cd6da189e5.JPG"
@@ -194,7 +203,18 @@ class Artwork extends Component {
       id: 10,
       name: "Eye water",
       image: "https://user-images.githubusercontent.com/44556715/90457281-1561ca00-e0c9-11ea-9a79-a1cb6bb99a5a.JPG"
-    }, {
+    }, 
+    {
+      id: 23,
+      name: "Guitar",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444306654-2be93c0f-4262-4b84-a815-65e76cb62ff5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T215548Z&X-Amz-Expires=300&X-Amz-Signature=f6ca728eb79569a30366df6af154ea868d9651a72753b727a20ee956230bbd62&X-Amz-SignedHeaders=host"
+    },
+    {
+      id: 3,
+      name: "Bottles",
+      image: "https://user-images.githubusercontent.com/44556715/90457270-13980680-e0c9-11ea-8eb7-6a731c506df7.jpg"
+    },
+    {
       id: 12,
       name: "Watch",
       image: "https://user-images.githubusercontent.com/44556715/90457282-15fa6080-e0c9-11ea-9480-dcb243ce4c19.jpeg"

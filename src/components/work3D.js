@@ -98,7 +98,7 @@ class Work3D extends Component {
       </Card.Text>
     </Card.Footer>
   </Card>
-
+{/* 
   <Card>
   <Carousel interval = "100000000000000">
   <Carousel.Item>
@@ -139,8 +139,63 @@ class Work3D extends Component {
         Maya | ZBrush | Substance Painter | Rigging
       </Card.Text>
     </Card.Footer>
-  </Card>
+  </Card> */}
 
+
+  <Card>
+           <Carousel interval = "100000000000000">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102719179-9076ff00-42ba-11eb-8f13-094b661d6a7a.jpg"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102735172-b67abe80-430f-11eb-822d-8c4fc720be8b.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102735342-22f5bd80-4310-11eb-8241-6639c351a151.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102781932-78f55000-4366-11eb-8f9a-e75b5078b92e.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://user-images.githubusercontent.com/44556715/102734786-ac0bf500-430e-11eb-9bdd-4617593cf5fa.gif"}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  </Carousel>
+    <Card.Body>
+      <Card.Title>Game Animations </Card.Title>
+      <Card.Text>
+      <div className="cardtext">
+        Keyframed animation of walk cycle, run cycle, idle cycle, and kick created in Maya, using video reference, for export into Unreal Engine.
+        <br />
+        Rigged character asset from Adobe Mixamo. 
+        </div>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Text>
+        Maya | Game Animation 
+      </Card.Text>
+    </Card.Footer>
+  </Card>
   
   <Card>
   <Carousel interval = "100000000000000">
@@ -163,8 +218,8 @@ class Work3D extends Component {
       <Card.Title>Before Dawn </Card.Title>
       <Card.Text>
       <div className= "cardtext">
-        RPG created in collaboration with Wendy Jia and Emily Huang, using Unreal Engine 4, with all environment assets created using Maya, ZBrush, and Substance Painter. Environment created in collaboration with 2 other artists.
-        <br /> I made all character animations, and created blueprints in UE4 for user interaction such as the animation controller and camera controller.
+        RPG created in collaboration with Wendy Jia and Emily Huang, using Unreal Engine, with all environment assets created using Maya, ZBrush, and Substance Painter.
+        <br /> I made character animations, and created blueprints in Unreal Engine for user interaction such as the animation controller and camera controller.
         <br /> I was responsible for the sky, river, cabin, their textures, normal maps, environment lighting. All environment models are low-poly. 
          
         <br /><a href="https://vimeo.com/663114664" rel="noopener noreferrer" target="_blank">
@@ -183,7 +238,7 @@ class Work3D extends Component {
 
 
            <CardDeck className="deck1">
-           <Card>
+           {/* <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
@@ -236,8 +291,8 @@ class Work3D extends Component {
         Maya | Game Animation 
       </Card.Text>
     </Card.Footer>
-  </Card>
-           <Card>
+  </Card> */}
+           {/* <Card>
            <Carousel interval = "100000000000000">
   <Carousel.Item>
     <img
@@ -290,7 +345,7 @@ class Work3D extends Component {
       src={"https://user-images.githubusercontent.com/44556715/102717393-0c1f7e80-42b0-11eb-9ab9-b9fbc502bb11.gif"}
       alt="First slide"
     />
-  </Carousel.Item>
+  </Carousel.Item> */}
   {/* <Carousel.Item>
     <img
       className="d-block w-100"
@@ -313,7 +368,7 @@ class Work3D extends Component {
     />
   </Carousel.Item>
   */} 
-  </Carousel>
+  {/* </Carousel>
     <Card.Body>
       <Card.Title>Character Model</Card.Title>
       <Card.Text>
@@ -329,7 +384,7 @@ class Work3D extends Component {
         3D Modeling | Maya | Substance Painter | Shading | Character Art
       </Card.Text>
     </Card.Footer>
-  </Card>
+  </Card> */}
            {/* <Card>
     <Card.Img variant="top" src={"https://user-images.githubusercontent.com/44556715/90456843-f6af0380-e0c7-11ea-86c5-20096f24363f.png"} />
     <Card.Body>

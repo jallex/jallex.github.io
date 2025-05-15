@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 import './navbar.css';
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import resume from './Jackie_Allex_resume.pdf';
+import resume from './Jackie_Allex_Resume.pdf';
 
 
 class Navbarg extends Component {
