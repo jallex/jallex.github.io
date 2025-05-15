@@ -128,96 +128,101 @@ class Artwork extends Component {
       {
         id: 22,
         name: "Demon concert",
-        image: "https://user-images.githubusercontent.com/44556715/108859354-21b86980-75bb-11eb-9f57-ea6c7f946731.png"
+        image: "/images_artwork/demon_girls.png"
       },
       {
         id: 19,
         name: "Gravediggers",
-        image: "https://user-images.githubusercontent.com/44556715/108859790-94c1e000-75bb-11eb-9076-ab1c905272d2.png"
+        image: "/images_artwork/gravediggers.png"
       },
       {
         id: 21,
         name: "Grad Cap",
-        image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444304657-bfb4c1de-c604-44d4-b6da-f9036d266a22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T214728Z&X-Amz-Expires=300&X-Amz-Signature=9abdc2b8ff5ec8de06faee6f496615c0e2dadd6c7c739353a81b2d28331ffd57&X-Amz-SignedHeaders=host"
+        image: "/images_artwork/grad_cap.jpg"
+      },
+      {
+        id: 23,
+        name: "doodle",
+        image: "/images_artwork/doodle.jpg"
       },
       {
         id: 6,
-        name: "Water",
-        image: "https://user-images.githubusercontent.com/44556715/90457274-14309d00-e0c9-11ea-976f-c7e58748c066.JPG"
+        name: "Water Hand",
+        image: "/images_artwork/hand_water.jpeg"
       }, 
     {
       id: 1,
       name: "Ballet",
-      image: "https://user-images.githubusercontent.com/44556715/90457265-1266d980-e0c9-11ea-896a-1ad1f15c09d3.png"
+      image: "/images_artwork/ballet.png"
     },
      {
       id: 5,
-      name: "Fire",
-      image: "https://user-images.githubusercontent.com/44556715/90457272-14309d00-e0c9-11ea-8611-9a53a58086e7.JPG"
+      name: "Fire Hand",
+      image: "/images_artwork/hand_flame.jpeg"
     }, 
     {
       id: 2,
       name: "Forest",
-      image: "https://user-images.githubusercontent.com/44556715/90457269-13980680-e0c9-11ea-8a00-366dae248570.jpg"
+      image: "/images_artwork/flower_girl.jpg"
     },
     {
       id: 20,
       name: "Moth wizard",
-      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444304993-ede6afdf-f7ee-4fb9-b185-7fef0ad30a36.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T214902Z&X-Amz-Expires=300&X-Amz-Signature=14ebe8c536be88b43f8e37e4e4eac076278f4e00653bd0817abb5df0adf6d224&X-Amz-SignedHeaders=host"
+      image: "/images_artwork/moth_wizard.jpg"
     },
     {
       id: 4,
       name: "Dog",
-      image: "https://user-images.githubusercontent.com/44556715/90457271-13980680-e0c9-11ea-9b35-f6cb875ac530.JPG"
+      image: "/images_artwork/boston_terrier.jpeg"
     },
     {
       id: 7,
       name: "Earth",
-      image: "https://user-images.githubusercontent.com/44556715/90457276-14309d00-e0c9-11ea-9bec-f8ed95268745.JPG"
+      image: "/images_artwork/hand_earth.jpeg"
     }, 
     {
       id: 22,
       name: "Skyscraper",
-      image: "https://user-images.githubusercontent.com/44556715/131848235-b5a6b0af-7f76-45c2-926c-bd560b10e40d.jpeg"
+      image: "/images_artwork/skyscrapers.jpeg"
     },
     {
       id: 22,
       name: "Portrait2",
-      image: "https://user-images.githubusercontent.com/44556715/131847707-9a512fa0-e1e8-4c66-8067-4595bd0b0367.jpeg"
+      image: "/images_artwork/portrait2.jpeg"
     },
     {
       id: 21,
       name: "Portrait1",
-      image: "https://user-images.githubusercontent.com/44556715/131847256-66226c51-1b74-4d0e-a05a-f9f0b87a1240.jpeg"
+      image: "/images_artwork/portrait1.jpeg"
     },
     {
       id: 8,
       name: "Wind",
-      image:"https://user-images.githubusercontent.com/44556715/90457277-14c93380-e0c9-11ea-8a59-476ec3ef5116.JPG"
+      image: "/images_artwork/hand_wind.jpeg"
     }, 
     {
       id: 9,
       name: "Eye fire",
-      image: "https://user-images.githubusercontent.com/44556715/90457278-14c93380-e0c9-11ea-85c6-26cd6da189e5.JPG"
+      image: "/images_artwork/eye_fire.jpeg"
     }, {
       id: 10,
       name: "Eye water",
-      image: "https://user-images.githubusercontent.com/44556715/90457281-1561ca00-e0c9-11ea-9a79-a1cb6bb99a5a.JPG"
+      image: "/images_artwork/eye_water.jpeg"
     }, 
     {
       id: 23,
       name: "Guitar",
-      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/44556715/444306654-2be93c0f-4262-4b84-a815-65e76cb62ff5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250515T215548Z&X-Amz-Expires=300&X-Amz-Signature=f6ca728eb79569a30366df6af154ea868d9651a72753b727a20ee956230bbd62&X-Amz-SignedHeaders=host"
+      image: "/images_artwork/guitar.jpg"
     },
     {
       id: 3,
       name: "Bottles",
-      image: "https://user-images.githubusercontent.com/44556715/90457270-13980680-e0c9-11ea-8eb7-6a731c506df7.jpg"
+      image: "/images_artwork/bottles.jpg"
     },
     {
       id: 12,
       name: "Watch",
-      image: "https://user-images.githubusercontent.com/44556715/90457282-15fa6080-e0c9-11ea-9480-dcb243ce4c19.jpeg"
+      image: "/images_artwork/watch.jpeg"
     }, 
     /* 
     {
@@ -234,11 +239,11 @@ class Artwork extends Component {
   {
       id: 15,
       name: "Hand animated",
-      image: "https://user-images.githubusercontent.com/44556715/90457285-1692f700-e0c9-11ea-900b-24937e305571.gif"
+      image: "/images_artwork/hand_animated.gif"
     },  {
       id: 18,
       name: "Hand pencil",
-      image: "https://user-images.githubusercontent.com/44556715/90457293-198de780-e0c9-11ea-8db8-e5873807ab90.JPG"
+      image: "/images_artwork/hand_blocked.jpeg"
     }];
     return(
       <div className="artwork-page" id="artwork"><h1>Artwork and Illustration</h1>
