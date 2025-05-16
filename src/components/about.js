@@ -17,10 +17,10 @@ function About() {
         </div>
         <h4>
           {" "}
-          I work in computer graphics and production technology. If it animates, illuminates, detonates, ...or crashes in style... odds are I'm already debugging it (legend has it with an unholy amount of tabs open and 3 lattes in hand :D)!
+          I work in computer graphics and production technology. 
+          If it animates, illuminates, detonates, ...or crashes in style... odds are I'm already debugging it (legend has it with an unholy amount of tabs open and 3 lattes in hand :D)!
           <br />
           <br /> Outside of work, I love enjoying nature with friends, serenading my plants, journaling, dancing at indie rock concerts, and exploring real-time generative projection art! :)
-          <br /> Welcome to my site!
         </h4>
         <h4>
           {" "}
