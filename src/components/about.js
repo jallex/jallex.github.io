@@ -18,14 +18,18 @@ function About() {
         <h4>
           {" "}
           I work in computer graphics and production technology. 
-          If it animates, illuminates,<br/> ...or crashes in style... odds are I'm already debugging it (with an unholy amount of tabs open and 3 lattes in hand :D)!
+          If it animates, illuminates,<br/> ..or crashes in style.. odds are I'm already debugging it (with an unholy amount of tabs open and 3 lattes in hand :D)!
           <br />
-          <br /> Outside of work, I love enjoying nature with friends, serenading my plants, journaling, being a concert rat, and exploring real-time generative projection art! 
+          <br /> Outside of work, I love enjoying nature with friends, making music, journaling, & being a concert rat! Also, recently house dancing :) 
         </h4>
         <h4>
           {" "}
           My experience:
           <ul>
+          <li>
+              <b>Pixar Animation Studios</b> <br />
+              - Lightspeed Technical Director (<em>Toy Story 5</em>)<br />
+            </li>
             <li>
               <b>Megalis VFX</b> <br />
               - Pipeline Technical Director <br />

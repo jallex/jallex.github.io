@@ -1,0 +1,52 @@
+Jacqueline Allex
+jackieallex@gmail.com | 732.598.2503 | jackieallex.com | github.com/jallex
+Skills ______________________________________________________________________________
+Programming : C++, OpenGL, Python, Qt, Lua, TCL, C#, Javascript, Git, Perforce, Linux, Agile
+DCC Profi ciencies : USD, Renderman, Nuke, Houdini, Solaris, Maya, Katana, Unreal Engine, Blender
+Experience__________________________________________________________________________
+Megalis VFX Tokyo, Japan
+Pipeline Technical Director March 2024 - March 2025
+● Developed pipeline tools for Houdini, USD workfl ows, rendering, denoising, publishing, Nuke, Maya, Unreal Engine, Shotgrid, RV, and Deadline Monitor. Used Rez packages, Git, and wrote CI/CD tests for code.
+● Designed and implemented USD Manifest editing tool, for artists to manage the assets present in a shot/seq/show, including specifying the number of instances and their variants.
+● Designed, programmed, integrated custom USD Asset Resolver into pipeline, USD recursive dependency collection methods, and early stages of a USD Layer and Version Manager tool.
+● Performed pipeline optimizations and provided technical support to artists across departments.
+● Took on shading and generalist tasks in Houdini and Unreal, adapting to the needs of a small studio environment.
+Pixar Animation Studios Emeryville, CA
+Dailies, Lightspeed, Rendering Technical Director Feb 2023 - Feb 2024
+● Inside Out 2 Sequence Lead - Led sequences across all stages of production as the technical point of contact for lighting, shading, compositing, animation, FX, sets, and more.
+● Wrote pipeline tools, automated processes, led dailies reviews, and performed quick shot fi xes.
+● Monitored and optimized the rendering pipeline, automating farm resource tracking and resolving any render errors.
+Lightspeed Rendering Pipeline
+● Enhanced the studio’s cloud pipeline by transitioning denoising of single frame sky dome images from OptiX to DRS, improving volume detail preservation and render effi ciency.
+● Implemented workfl ow optimizations using custom Katana OpScripts (Lua), Python shelf scripts, and Nuke/TCL tools.
+Lightspeed Technical Director
+● On shows Inside Out 2 and Elio - Performed sequence and shot-level optimizations to maximize render throughput and interactive speed.
+● Cleaned and fi nalized Renderman renders in Katana and Nuke - addressing noise, shading artifacts, fi refl ies, fog chatter, NaNs, dicing pops, intermittent render artifacts, and more to ensure fi nal quality and approval in reviews. Wrote LPE’s, scripts, and made technical fi xes.
+● Owned sequences end-to-end, delivering fully clean fi nal frames under tight production deadlines.
+Studio Tools Software Engineer - Applications Intern June - Sept 2022
+● Developed C++, Python, and Qt tools to support set-dressing workfl ows in Maya and Presto.
+● Contributed features to maya-usd open source project, enhancing USD pipeline integration within Autodesk Maya.
+Disney Research Imagineering Glendale, CA
+Research and Development Co-op Jan 2022 - May 2022
+● Conducted R&D with Imagineering on AI character experiences, procedural animation, and interactive AR systems. Used TouchDesigner to run real-time show live.
+● Programmed procedural animation state system including visemes for dialogue, for real-time character experience using Unreal Engine and Blueprints. Sculpted, modeled, rigged, textured, and animated character.
+Electronic Arts Los Angeles, CA
+Technical Artist Intern May - Aug 2021
+● Contributed as a Technical Artist on Battlefi eld Mobile with Industrial Toys, developing artist-facing tools in Unreal Engine 4 and Maya using Python, Qt, and Blueprints. Created general-purpose tools, including a Slackbot, and managed source control with Perforce.
+ILM, Lucasfi lm San Francisco, CA
+Core Pipeline Software Engineer Co-op Jan - May 2021
+● Used Python to program features in Excavator, a tool for scanning a fi lesystem for information about everything that lives on disk and storing data in Elasticsearch for artists and engineers to reference - helped to manage and free up studio disk space.
+● Debugged farm jobs (Coda), and worked with containerized environments (Docker, Linux)
+● Built pipelines transferring scanned data from Redis to Kafka, then inserted data into Elasticsearch, for artist and engineering reference.
+Human Movement Neuroscience Lab Boston, MA
+VR | AR | Motion Capture Technical Engineer Jan 2020 - Jan 2021
+● Developed 3D animation pipelines for open-source project freemocap, a markerless motion capture system.
+● Created full-body human animations for marker & markerless mocap sessions using Python and Blender’s API.
+Bank of America Jersey City, NJ
+Global Technology Analyst Intern June - Aug 2019
+● Used ReactJS and NodeJS to design and implement over 10 front-end and API features for an internal data transfer application.
+Education ___________________________________________________________________________
+Northeastern University, Khoury College of Computer Sciences 2018 - 2022 Bachelor of Science in Computer Science and Media Arts GPA: 3.8 / 4.0
+Volunteer ___________________________________________________________________________
+SIGGRAPH 2025 : Immersive Pavilion Committee, Conference Apprentice
+SIGGRAPH 2021 - 2023 : Student Volunteer Team Lead, Student Volunteer
